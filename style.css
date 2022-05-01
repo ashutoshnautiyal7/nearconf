@@ -1,0 +1,25 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+
+.componentsafter{
+    text-align: center
+}
+
+.para{
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+@tailwind utilities;
+
+/* to use apply directive after the utilities we use layer directive */
+/* note this layer directive is not of much use so prevent this  */
+
+
