@@ -33,8 +33,18 @@
      
 </head>
 <body>
-    
-    <div class="navbar fixed w-full  z-10 ">
+
+
+  <div class="bg"></div>
+  <div class="bg bg2"></div>
+  <div class="bg bg3"></div>
+  
+
+<div class="">
+
+ 
+
+    <div class="navbar  fixed w-full  z-10 ">
         <div class="antialiased bg-gray-100 " x-data="{open: false}">
             <nav
                 class="absolute inset-0 transform lg:transform-none lg:opacity-100 duration-200 lg:relative z-10 w-64 bg-blue-800 text-white h-screen p-3 md:p-1  md:w-full md:h-20 "
@@ -129,7 +139,7 @@
 
     <div  class="main  md:mx-auto md:w-[75rem] pt-14 md:pt-20     ">
     
-        <div id="home" class="mx- md:flex justify-around bg-gradient-to-b from-blue-100 to-gray-50">
+        <div id="home" class="mx- md:flex justify-around ">
             <div class="main-text md:my-auto  md:w-[27rem]  ">
                     <h1 class="font-bold text-gray-700 text-xl md:text-3xl p-2">Your pc doctor is now up and running.</h1>
                     <p class=" para p-2 md:text-xl">Don’t put it off. Get your computer, tablet or laptop fixed today.</p>
@@ -143,7 +153,7 @@
 
         </div>
 
-        <div class="services bg-gray-50 pb-32 ">
+        <div class="services shadow-2xl  pb-32 ">
 
         
             <div data-aos="fade-up" data-aos-duration="1300" data-aos-offset="200" id="services" class="py-16 md:pt-32 md:pb-16 space-y-3  p-2  ">
@@ -152,34 +162,36 @@
             </div>
 
             <!-- here the grid for services -->
+            
+            
 
-            <div  class="mx-auto  services-first md:flex space-x-2 md:space-x-4 text-center font-medium md:text-lg px-3   ">
-                <div data-aos="fade-up" data-aos-duration="1300" data-aos-offset="200" class=" software  w-60 h-52 ml-2 md:ml-0 my-3   rounded-lg md:w-96 md:h-auto bg-white rounded-lg shadow-2xl  p-2 mx-auto ">
+            <div  class="mx-auto  services-first md:flex  md:space-x-4 text-center font-medium md:text-lg px-3   ">
+                <div data-aos="fade-up" data-aos-duration="1300" data-aos-offset="200" class=" software  w-60 h-52  md:ml-0 my-3   rounded-lg md:w-96 md:h-auto bg-white rounded-lg shadow-2xl  p-2 mx-auto ">
                     <h1 class="md:p-2">Software issues</h1>
                     <img  src="./images/software.png" alt="">
                 </div>
                 
-                <div data-aos="fade-down" data-aos-duration="1300" data-aos-offset="200" class=" Hardware w-60 h-52 my-3   rounded-lg md:w-96 md:h-auto bg-white rounded-lg shadow-2xl p-2">
+                <div data-aos="fade-down" data-aos-duration="1300" data-aos-offset="200" class=" Hardware w-60 h-52 my-3   rounded-lg md:w-96 md:h-auto bg-white rounded-lg shadow-2xl p-2  mx-auto " >
                     <h1 class="md:p-2">Hardware issues</h1>
                     <img src="./images/hardware.jpg" alt="">
                 </div>
-                <div data-aos="fade-up" data-aos-duration="1300" data-aos-offset="200" class=" Thermal   w-60 h-52 my-3   rounded-lg md:w-96 md:h-auto bg-white rounded-lg shadow-2xl p-2 ">
+                <div data-aos="fade-up" data-aos-duration="1300" data-aos-offset="200" class=" Thermal   w-60 h-52 my-3  mx-auto   rounded-lg md:w-96 md:h-auto bg-white rounded-lg shadow-2xl p-2  mx-auto ">
                     <h1 class="md:p-2">Thermal issues</h1>
                     <img  src="./images/thermalbg.png" alt="">
                 </div>
             </div>
 
-            <div class=" mx-auto  services-first md:flex space-x-2 md:space-x-4 text-center font-medium md:text-lg px-3 my-4">
-                <div data-aos="fade-down" data-aos-duration="1300" data-aos-offset="200" class=" software mx-1 w-60 h-52 ml-2 md:ml-0 my-3   rounded-lg md:w-96 md:h-auto bg-white rounded-lg shadow-2xl  p-2">
+            <div class=" mx-auto  services-first md:flex md:space-x-4 text-center font-medium md:text-lg px-3 my-4">
+                <div data-aos="fade-down" data-aos-duration="1300" data-aos-offset="200" class=" software  w-60 h-52  md:ml-0 my-3   rounded-lg md:w-96 md:h-auto bg-white rounded-lg shadow-2xl  p-2  mx-auto">
                     <h1 class="md:p-2">Full Laptop Service</h1>
                     <img  src="./images/lapy.png" alt="">
                 </div>
                 
-                <div data-aos="fade-up" data-aos-duration="1300" data-aos-offset="200" class=" Hardware mx-1 w-60 h-52 my-3   rounded-lg md:w-96 md:h-auto bg-white rounded-lg shadow-2xl p-2">
+                <div data-aos="fade-up" data-aos-duration="1300" data-aos-offset="200" class=" Hardware  w-60 h-52 my-3   rounded-lg md:w-96 md:h-auto bg-white rounded-lg shadow-2xl p-2  mx-auto">
                     <h1 class="md:p-2">Software Updates</h1>
                     <img src="./images/soft-update1.png" alt="">
                 </div>
-                <div data-aos="fade-down" data-aos-duration="1300" data-aos-offset="200" class=" Thermal  mx-1 w-60 h-52 my-3   rounded-lg md:w-96 md:h-auto bg-white rounded-lg shadow-2xl p-2">
+                <div data-aos="fade-down" data-aos-duration="1300" data-aos-offset="200" class=" Thermal  w-60 h-52 my-3   rounded-lg md:w-96 md:h-auto bg-white rounded-lg shadow-2xl p-2  mx-auto">
                     <h1 class="md:p-2">Heavy downloading</h1>
                     <img class="md:w-72 md:h-72 md:mx-auto" src="./images/downloading1.png" alt="">
                 </div>
@@ -188,7 +200,7 @@
         
         <!-- FAQs seciton -->
 
-        <div id="faqs" class="bg-gradient-to-b from-gray-50 to-blue-50 pb-32 pt-8 font-display ">
+        <div id="faqs" class=" pb-32 pt-8 font-display shadow-2xl ">
             <div class="">
                 
                 <div>
@@ -355,8 +367,8 @@
 
 
         <!-- contact us form -->
-        <div data-aos="fade-up" data-aos-duration="1500" data-aos-offset="500" id="contact" className="bg-blue-50  md:text-lg" >
-            <div class="-xl mt- px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto bg-gray-50 text-gray-900 rounded-lg shadow-lg">
+        <div data-aos="fade-up" data-aos-duration="1500" data-aos-offset="500" id="contact" class=" md:text-lg" >
+            <div class="-xl mt- px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto text-gray-900 rounded-lg shadow-lg">
                     <div class="flex flex-col justify-between">
                       <div>
                         <h2 class="text-4xl lg:text-5xl font-bold leading-tight text-blue-900">Lets talk about everything!</h2>
@@ -515,6 +527,7 @@
 
 
     </div>
+  </div>   
         
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
